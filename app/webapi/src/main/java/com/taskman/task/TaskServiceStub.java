@@ -8,6 +8,6 @@ public class TaskServiceStub implements TaskService {
 
     @Override
     public Task getTask(String name) {
-        return null;
+        return new Task(name, "jacek");
     }
 }

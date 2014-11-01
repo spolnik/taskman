@@ -1,10 +1,12 @@
 package com.taskman.task;
 
-public class Task {
-    private String user;
-    private String name;
+public final class Task {
+    private final String user;
+    private final String name;
 
-    public Task(String name, String user) {
+    public Task(String aName, String aUser) {
+        name = aName;
+        user = aUser;
     }
 
     public String getName() {
